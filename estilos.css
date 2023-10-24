@@ -1,0 +1,23 @@
+/*Documento de estilos css 24/10/2023*/
+div{/*Centrar Tabla de cartas*/
+    margin-left: 25%;
+}
+
+img {/*Tamaño de cartas*/
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+}
+
+input {/*Estilo de botones*/
+    width: 100px;
+    height: 30px;
+    font-family:cursive;
+    background-color:#006946;
+    color:white;
+}
+
+.centrar {/*Barra de navegacion*/
+    margin-left: 28%;
+}
+

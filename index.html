@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proyecto Memorama 4x3,4x4,4x5</title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+<body>
+    <div class="centrar">
+        <input type="button" value="Iniciar" onclick="iniciarJuego()" />
+        <input type="button" value="4x3" onclick="level4x3()" />
+        <input type="button" value="4x4" onclick="level4x4()" />
+        <input type="button" value="4x5" onclick="level4x5()" />
+        <input type="button" value="Reiniciar" onclick="resetearJuego()" />
+    </div>
+    <hr>
+
+    <div class="4x3">
+        <table>
+            <tr>
+                <td id="0" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="1" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="2" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="3" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="4" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="5" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="6" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="7" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="7" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="8" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="9" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="10" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+    <div class="4x4">
+        <table>
+            <tr>
+                <td id="0" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="1" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="2" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="3" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="4" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="5" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="6" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="7" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="8" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="9" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="10" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="11" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="12" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="13" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="14" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="15" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+    <div class="4x4">
+        <table>
+            <tr>
+                <td id="0" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="1" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="2" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="3" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="4" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="5" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="6" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="7" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="8" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="9" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="10" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="11" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="12" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="13" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="14" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="15" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+            <tr>
+                <td id="16" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="17" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="18" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+                <td id="19" onclick="girarCarta()" data-valor="valor"><img src="img/Carta.png"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
