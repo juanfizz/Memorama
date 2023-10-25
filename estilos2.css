@@ -7,19 +7,18 @@ body {
     align-items: center;
     height: 100vh;
  }
- 
- 
+
  footer {
-   
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-    background-color: #000000;
-    color: red;
-    text-align: center;
-    padding: 10px;
-   
- }
+  
+   position: fixed;
+   bottom: 0%;
+   width: 100%;
+   background-color: #000000;
+   color: red;
+   text-align: center;
+   padding: 10px;
+  
+}
  
  button {
     background: black;
@@ -86,36 +85,41 @@ body {
     cursor: pointer;
  }
  
- 
- .card.flipped {
-    background-size: cover;
- }
- 
- .card[data-image="1"].flipped {
-    background-image: url(./img/1.png);
- }
- 
- .card[data-image="2"].flipped {
-    background-image: url(./img/2.png);
- }
- 
- .card[data-image="3"].flipped {
-    background-image: url(./img/3.png);
- }
- 
- .card[data-image="4"].flipped {
-    background-image: url(./img/4.png);
- }
- 
- .card[data-image="5"].flipped {
-    background-image: url(./img/5.png);
- }
- 
- .card[data-image="6"].flipped {
-    background-image: url(./img/6.png);
- }
- 
- .btn {
-    margin-top: 20px;
- }
- 
+  .card.flipped {
+     background-size: cover; 
+  }
+  .card[data-image="1"].flipped {
+     background-image: url(./img/1.png);
+  }
+  
+  .card[data-image="2"].flipped {
+     background-image: url(./img/2.png);
+  }
+  
+  .card[data-image="3"].flipped {
+     background-image: url(./img/3.png);
+  }
+  
+  .card[data-image="4"].flipped {
+     background-image: url(./img/4.png);
+  }
+  
+  .card[data-image="5"].flipped {
+     background-image: url(./img/5.png);
+  }
+  
+  .card[data-image="6"].flipped {
+     background-image: url(./img/6.png);
+  }
+  
+  .card[data-image="77"].flipped {
+     background-image: url(./img/77.png);
+  }
+  
+  .card[data-image="8"].flipped {
+     background-image: url(./img/8.png);
+  }
+  .btn {
+     margin-top: 20px;
+  }
+  

@@ -8,7 +8,6 @@ body {
     height: 100vh;
  }
  
- 
  footer {
    
     position: fixed;
@@ -20,6 +19,7 @@ body {
     padding: 10px;
    
  }
+ 
  
  button {
     background: black;
@@ -86,36 +86,51 @@ body {
     cursor: pointer;
  }
  
- 
- .card.flipped {
-    background-size: cover;
+  .card.flipped {
+     background-size: cover; 
  }
+  
+  .card[data-image="1"].flipped {
+     background-image: url(./img/1.png);
+  }
+  
+  .card[data-image="2"].flipped {
+     background-image: url(./img/2.png);
+  }
+  
+  .card[data-image="3"].flipped {
+     background-image: url(./img/3.png);
+  }
+  
+  .card[data-image="4"].flipped {
+     background-image: url(./img/4.png);
+  }
+  
+  .card[data-image="5"].flipped {
+     background-image: url(./img/5.png);
+  }
+  
+  .card[data-image="6"].flipped {
+     background-image: url(./img/6.png);
+  }
+  
+  .card[data-image="77"].flipped {
+     background-image: url(./img/77.png);
+  }
+  
+  .card[data-image="8"].flipped {
+     background-image: url(./img/8.png);
+  }
  
- .card[data-image="1"].flipped {
-    background-image: url(./img/1.png);
- }
+  .card[data-image="9"].flipped {
+     background-image: url(./img/9.png);
+  }
  
- .card[data-image="2"].flipped {
-    background-image: url(./img/2.png);
- }
+  .card[data-image="10"].flipped {
+     background-image: url(./img/10.png);
+  }
  
- .card[data-image="3"].flipped {
-    background-image: url(./img/3.png);
- }
- 
- .card[data-image="4"].flipped {
-    background-image: url(./img/4.png);
- }
- 
- .card[data-image="5"].flipped {
-    background-image: url(./img/5.png);
- }
- 
- .card[data-image="6"].flipped {
-    background-image: url(./img/6.png);
- }
- 
- .btn {
-    margin-top: 20px;
- }
- 
+  .btn {
+     margin-top: 20px;
+  }
+  
